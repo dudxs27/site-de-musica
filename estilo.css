@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(135deg, #443841, #271a23);
+    background-image: linear-gradient(135deg, #9c628e, #271a23);
     background-attachment: fixed;
     display: flex;
     justify-content: center;
@@ -34,4 +34,11 @@ div.pag-inicial {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.caixa-de-login{
+    background-color:#9c7693;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 100px;
 }
