@@ -16,6 +16,7 @@ def home():
 def login():
     return render_template('login.html')
 
+
 # VERFIFICAR O LOGIN
 @app.route('/verificar-login', methods=['POST'])
 def verificar_login():
